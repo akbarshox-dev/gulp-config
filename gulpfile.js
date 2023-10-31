@@ -27,7 +27,7 @@ const sass = require('gulp-sass')(require("node-sass"))
 const uglify = require('gulp-uglify')
 
 
-let paths = {
+let path = {
     build: {
         html: "dist/",
         js: "dist/assets/js/",
@@ -124,9 +124,9 @@ const watch = gulp.series(build, watchFiles, browserSync)
 exports.css = css
 exports.js = js
 exports.images = images
-exports.clean = clean
 exports.pug = pug
 exports.font = font
 exports.build = build
 exports.watch = watch
 exports.default = watch;
+exports.clean = clean
