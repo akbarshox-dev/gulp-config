@@ -1,2 +1,2 @@
-# gulp-config
-Gulp config.
+# Gulp Config
+Gulp bundle config for Pug/Scss/JS 
